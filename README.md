@@ -5,10 +5,16 @@
 To develop a Recurrent Neural Network model for stock price prediction.
 
 ## Problem Statement and Dataset
+Predicting the Google stock price over time is the assigned challenge.
+For this, a dataset is given to us that includes information such as Date, Opening Price, Highest Price, Lowest Price, Closing Price, Adjusted Closing Price, Volume, and many more.
+Create an RNN model to forecast the price of stocks based on the provided features.
+
+<img width="605" alt="Screenshot 2023-10-13 at 4 42 53 PM" src="https://github.com/KoduruSanathKumarReddy/rnn-stock-price-prediction/assets/69503902/9681d294-ef44-44a0-98eb-4fb44b7d50ba">
+
 
 ## Neural Network Model
 
-Include the neural network model diagram.
+
 
 ## DESIGN STEPS
 
