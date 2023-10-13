@@ -13,6 +13,8 @@ Create an RNN model to forecast the price of stocks based on the provided featur
 
 
 ## Neural Network Model
+![60 units inputlayer](https://github.com/KoduruSanathKumarReddy/rnn-stock-price-prediction/assets/69503902/130d244c-edc1-4c88-94f4-9434db1286e2)
+
 
 
 
