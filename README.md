@@ -88,7 +88,7 @@ n_features = 1
 ## Creating the model
 ~~~
 model = Sequential()
-model.add(layers.SimpleRNN(10,input_shape=(60,1)))
+model.add(layers.SimpleRNN(40,input_shape=(60,1)))
 model.add(layers.Dense(1))
 
 ~~~
@@ -140,7 +140,8 @@ plt.show()
 <img width="679" alt="Screenshot 2023-10-13 at 4 24 47 PM" src="https://github.com/KoduruSanathKumarReddy/rnn-stock-price-prediction/assets/69503902/f38c9210-6e30-4100-be5c-a6fabccc45c9">
 
 ## Model
-<img width="679" alt="Screenshot 2023-10-13 at 4 26 05 PM" src="https://github.com/KoduruSanathKumarReddy/rnn-stock-price-prediction/assets/69503902/f2a1a5d8-89a7-45f5-a0aa-7468f15e28ee">
+
+<img width="605" alt="Screenshot 2023-10-13 at 4 47 32 PM" src="https://github.com/KoduruSanathKumarReddy/rnn-stock-price-prediction/assets/69503902/48ccafd7-8e81-4d77-a547-27eca54c051f">
 
 
 ### True Stock Price, Predicted Stock Price vs time
