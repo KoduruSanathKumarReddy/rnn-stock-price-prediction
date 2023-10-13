@@ -12,13 +12,20 @@ Include the neural network model diagram.
 
 ## DESIGN STEPS
 
-### STEP 1:
+### STEP 1: Import the require modules
 
-### STEP 2:
+### STEP 2: Import the dataset to manipulate on
 
-### STEP 3:
+### STEP 3: Assign the training and testing set
 
-Write your own steps
+### STEP 4: Scale the data
+
+### STEP 5: Create the model
+
+### STEP 6: Compile and fit the model
+
+### STEP 7: Make the prediction using testing data 
+
 
 ## PROGRAM
 ~~~
@@ -96,13 +103,14 @@ test_set.shape
 ~~~
 ## Concatinating the open of train and test dataset
 ~~~
-dataset_total = pd.concat((dataset_train['Open'],dataset_test['Open']))
 inputs = dataset_total.values
 inputs = inputs.reshape(-1,1)
 inputs_scaled=sc.transform(inputs)
 X_test = []
+y_test = []
 for i in range(60,1384):
   X_test.append(inputs_scaled[i-60:i,0])
+  y_test.append(inputs_scaled[i,0])
 X_test = np.array(X_test)
 X_test = np.reshape(X_test,(X_test.shape[0], X_test.shape[1],1))
 ~~~
@@ -136,6 +144,8 @@ plt.show()
 
 ### Mean Square Error
 
-Include the mean square error
+<img width="546" alt="Screenshot 2023-10-13 at 4 38 02 PM" src="https://github.com/KoduruSanathKumarReddy/rnn-stock-price-prediction/assets/69503902/b9d06d66-0f11-4d10-a482-5e38787832d8">
+
 
 ## RESULT
+There for the a Recurrent Neural Network is successfully developed for stock prediction.
